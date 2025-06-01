@@ -34,20 +34,6 @@ The point escapes if \( |z_n| > R \), where \( R \) is a fixed **escape radius**
 
 ---
 
-### Coordinate Mapping
-
-Pixels are mapped to the complex plane using a linear transformation:
-
-\[
-x = \text{map}(px, 0, \text{width}, -r, r)
-\]
-\[
-y = \text{map}(py, 0, \text{height}, -r \cdot \frac{H}{W}, r \cdot \frac{H}{W})
-\]
-
-This ensures a correct aspect ratio when rendering complex numbers.
-
----
 
 ### Coloring Formula
 
